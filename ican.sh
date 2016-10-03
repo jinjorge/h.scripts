@@ -3,7 +3,7 @@
 # Simple script to run as a cron job to output the networks external IP address
 # Read more about icanhazip here - https://major.io/icanhazip-com-faq/
 
-echo -n "`date +"%T"` " ; curl -4 https://icanhazip.com/
+echo -n "$(date +"%T") " ; curl -4 https://icanhazip.com/
 
 ## Output of the script looks like
 ## ➜  ~  ~/h.scripts/ican.sh
